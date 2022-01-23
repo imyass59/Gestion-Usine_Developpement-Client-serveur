@@ -21,5 +21,10 @@ namespace Gestion_Usine
         {
 
         }
+
+        private void sommaireDeLaideToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
