@@ -29,3 +29,16 @@ C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Gestion Usine v2\Ge
 C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Gestion Usine v2\Gestion_Usine\obj\Debug\Gestion_Usine.exe
 C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Gestion Usine v2\Gestion_Usine\obj\Debug\Gestion_Usine.pdb
 C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Gestion Usine v2\Gestion_Usine\obj\Debug\Gestion_Usine.Employe.resources
+C:\Users\Mobe\Source\Repos\imyass59\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\bin\Debug\Gestion_Usine.exe.config
+C:\Users\Mobe\Source\Repos\imyass59\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\bin\Debug\Gestion_Usine.exe
+C:\Users\Mobe\Source\Repos\imyass59\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\bin\Debug\Gestion_Usine.pdb
+C:\Users\Mobe\Source\Repos\imyass59\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\obj\Debug\Gestion_Usine.csprojAssemblyReference.cache
+C:\Users\Mobe\Source\Repos\imyass59\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\obj\Debug\Gestion_Usine.Employe.resources
+C:\Users\Mobe\Source\Repos\imyass59\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\obj\Debug\Gestion_Usine.Form1.resources
+C:\Users\Mobe\Source\Repos\imyass59\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\obj\Debug\Gestion_Usine.Properties.Resources.resources
+C:\Users\Mobe\Source\Repos\imyass59\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\obj\Debug\Gestion_Usine.csproj.GenerateResource.cache
+C:\Users\Mobe\Source\Repos\imyass59\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\obj\Debug\Gestion_Usine.csproj.CoreCompileInputs.cache
+C:\Users\Mobe\Source\Repos\imyass59\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\obj\Debug\Gestion_Usine.exe
+C:\Users\Mobe\Source\Repos\imyass59\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\obj\Debug\Gestion_Usine.pdb
+C:\Users\Mobe\Source\Repos\imyass59\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\obj\Debug\Gestion_Usine.Article.resources
+C:\Users\Mobe\Source\Repos\imyass59\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\obj\Debug\Gestion_Usine.SaisieProduction.resources

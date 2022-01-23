@@ -58,8 +58,28 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Article.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article.Designer.cs">
+      <DependentUpon>Article.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SaisieProduction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaisieProduction.Designer.cs">
+      <DependentUpon>SaisieProduction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsineDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UsineDataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Article.resx">
+      <DependentUpon>Article.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Employe.resx">
       <DependentUpon>Employe.cs</DependentUpon>
     </EmbeddedResource>
@@ -75,6 +95,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="SaisieProduction.resx">
+      <DependentUpon>SaisieProduction.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -84,6 +107,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="UsineDataSet.xsc">
+      <DependentUpon>UsineDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="UsineDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>UsineDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UsineDataSet.xss">
+      <DependentUpon>UsineDataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

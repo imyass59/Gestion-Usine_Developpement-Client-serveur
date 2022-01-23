@@ -94,6 +94,7 @@ namespace Gestion_Usine
             this.articlesToolStripMenuItem.Name = "articlesToolStripMenuItem";
             this.articlesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.articlesToolStripMenuItem.Text = "Articles ";
+            this.articlesToolStripMenuItem.Click += new System.EventHandler(this.articlesToolStripMenuItem_Click);
             // 
             // quitterToolStripMenuItem
             // 
@@ -221,6 +222,7 @@ namespace Gestion_Usine
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Gestion Usine V1.0";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
