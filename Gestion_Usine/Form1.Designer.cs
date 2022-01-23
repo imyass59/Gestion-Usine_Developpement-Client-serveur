@@ -65,7 +65,7 @@ namespace Gestion_Usine
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.menuStrip1.Size = new System.Drawing.Size(1033, 33);
+            this.menuStrip1.Size = new System.Drawing.Size(1377, 33);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -77,14 +77,15 @@ namespace Gestion_Usine
             this.quitterToolStripMenuItem,
             this.quitterToolStripMenuItem1});
             this.fichierToolStripMenuItem.Name = "fichierToolStripMenuItem";
-            this.fichierToolStripMenuItem.Size = new System.Drawing.Size(64, 29);
+            this.fichierToolStripMenuItem.Size = new System.Drawing.Size(81, 29);
             this.fichierToolStripMenuItem.Text = "Fichier";
+            this.fichierToolStripMenuItem.Click += new System.EventHandler(this.fichierToolStripMenuItem_Click);
             // 
             // employésToolStripMenuItem
             // 
             this.employésToolStripMenuItem.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.employésToolStripMenuItem.Name = "employésToolStripMenuItem";
-            this.employésToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.employésToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.employésToolStripMenuItem.Text = "Employés ";
             this.employésToolStripMenuItem.Click += new System.EventHandler(this.employésToolStripMenuItem_Click);
             // 
@@ -92,21 +93,22 @@ namespace Gestion_Usine
             // 
             this.articlesToolStripMenuItem.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.articlesToolStripMenuItem.Name = "articlesToolStripMenuItem";
-            this.articlesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.articlesToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.articlesToolStripMenuItem.Text = "Articles ";
             this.articlesToolStripMenuItem.Click += new System.EventHandler(this.articlesToolStripMenuItem_Click);
             // 
             // quitterToolStripMenuItem
             // 
             this.quitterToolStripMenuItem.Name = "quitterToolStripMenuItem";
-            this.quitterToolStripMenuItem.Size = new System.Drawing.Size(177, 6);
+            this.quitterToolStripMenuItem.Size = new System.Drawing.Size(221, 6);
             // 
             // quitterToolStripMenuItem1
             // 
             this.quitterToolStripMenuItem1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.quitterToolStripMenuItem1.Name = "quitterToolStripMenuItem1";
-            this.quitterToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.quitterToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
             this.quitterToolStripMenuItem1.Text = "Quitter";
+            this.quitterToolStripMenuItem1.Click += new System.EventHandler(this.quitterToolStripMenuItem1_Click);
             // 
             // productionToolStripMenuItem
             // 
@@ -115,28 +117,28 @@ namespace Gestion_Usine
             this.validationDeLaSaisieToolStripMenuItem,
             this.consultationToolStripMenuItem});
             this.productionToolStripMenuItem.Name = "productionToolStripMenuItem";
-            this.productionToolStripMenuItem.Size = new System.Drawing.Size(90, 29);
+            this.productionToolStripMenuItem.Size = new System.Drawing.Size(115, 29);
             this.productionToolStripMenuItem.Text = "Production";
             // 
             // saisieToolStripMenuItem
             // 
             this.saisieToolStripMenuItem.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.saisieToolStripMenuItem.Name = "saisieToolStripMenuItem";
-            this.saisieToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
+            this.saisieToolStripMenuItem.Size = new System.Drawing.Size(250, 26);
             this.saisieToolStripMenuItem.Text = "Saisie";
             // 
             // validationDeLaSaisieToolStripMenuItem
             // 
             this.validationDeLaSaisieToolStripMenuItem.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.validationDeLaSaisieToolStripMenuItem.Name = "validationDeLaSaisieToolStripMenuItem";
-            this.validationDeLaSaisieToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
+            this.validationDeLaSaisieToolStripMenuItem.Size = new System.Drawing.Size(250, 26);
             this.validationDeLaSaisieToolStripMenuItem.Text = "Validation de la saisie";
             // 
             // consultationToolStripMenuItem
             // 
             this.consultationToolStripMenuItem.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.consultationToolStripMenuItem.Name = "consultationToolStripMenuItem";
-            this.consultationToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
+            this.consultationToolStripMenuItem.Size = new System.Drawing.Size(250, 26);
             this.consultationToolStripMenuItem.Text = "Consultation";
             // 
             // etatsToolStripMenuItem
@@ -149,40 +151,40 @@ namespace Gestion_Usine
             this.histigrammeDeProductionToolStripMenuItem});
             this.etatsToolStripMenuItem.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.etatsToolStripMenuItem.Name = "etatsToolStripMenuItem";
-            this.etatsToolStripMenuItem.Size = new System.Drawing.Size(54, 29);
+            this.etatsToolStripMenuItem.Size = new System.Drawing.Size(67, 29);
             this.etatsToolStripMenuItem.Text = "Etats";
             // 
             // listDesEmployésToolStripMenuItem
             // 
             this.listDesEmployésToolStripMenuItem.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listDesEmployésToolStripMenuItem.Name = "listDesEmployésToolStripMenuItem";
-            this.listDesEmployésToolStripMenuItem.Size = new System.Drawing.Size(231, 22);
+            this.listDesEmployésToolStripMenuItem.Size = new System.Drawing.Size(288, 26);
             this.listDesEmployésToolStripMenuItem.Text = "List des Employés";
             // 
             // listeDesArticlesToolStripMenuItem
             // 
             this.listeDesArticlesToolStripMenuItem.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listeDesArticlesToolStripMenuItem.Name = "listeDesArticlesToolStripMenuItem";
-            this.listeDesArticlesToolStripMenuItem.Size = new System.Drawing.Size(231, 22);
+            this.listeDesArticlesToolStripMenuItem.Size = new System.Drawing.Size(288, 26);
             this.listeDesArticlesToolStripMenuItem.Text = "Liste des Articles";
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(228, 6);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(285, 6);
             // 
             // productionParPériodeToolStripMenuItem
             // 
             this.productionParPériodeToolStripMenuItem.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.productionParPériodeToolStripMenuItem.Name = "productionParPériodeToolStripMenuItem";
-            this.productionParPériodeToolStripMenuItem.Size = new System.Drawing.Size(231, 22);
+            this.productionParPériodeToolStripMenuItem.Size = new System.Drawing.Size(288, 26);
             this.productionParPériodeToolStripMenuItem.Text = "Production par période";
             // 
             // histigrammeDeProductionToolStripMenuItem
             // 
             this.histigrammeDeProductionToolStripMenuItem.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.histigrammeDeProductionToolStripMenuItem.Name = "histigrammeDeProductionToolStripMenuItem";
-            this.histigrammeDeProductionToolStripMenuItem.Size = new System.Drawing.Size(231, 22);
+            this.histigrammeDeProductionToolStripMenuItem.Size = new System.Drawing.Size(288, 26);
             this.histigrammeDeProductionToolStripMenuItem.Text = "Histigramme de production";
             // 
             // toolStripMenuItem1
@@ -193,13 +195,13 @@ namespace Gestion_Usine
             this.toolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuItem1.Image")));
             this.toolStripMenuItem1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(37, 29);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(39, 29);
             // 
             // aProposToolStripMenuItem
             // 
             this.aProposToolStripMenuItem.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.aProposToolStripMenuItem.Name = "aProposToolStripMenuItem";
-            this.aProposToolStripMenuItem.Size = new System.Drawing.Size(209, 22);
+            this.aProposToolStripMenuItem.Size = new System.Drawing.Size(260, 26);
             this.aProposToolStripMenuItem.Text = "A propos";
             // 
             // sommaireDeLaideToolStripMenuItem
@@ -207,20 +209,20 @@ namespace Gestion_Usine
             this.sommaireDeLaideToolStripMenuItem.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sommaireDeLaideToolStripMenuItem.Name = "sommaireDeLaideToolStripMenuItem";
             this.sommaireDeLaideToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F1;
-            this.sommaireDeLaideToolStripMenuItem.Size = new System.Drawing.Size(209, 22);
+            this.sommaireDeLaideToolStripMenuItem.Size = new System.Drawing.Size(260, 26);
             this.sommaireDeLaideToolStripMenuItem.Text = "Sommaire de l\'aide";
             this.sommaireDeLaideToolStripMenuItem.Click += new System.EventHandler(this.sommaireDeLaideToolStripMenuItem_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(229)))), ((int)(((byte)(234)))));
-            this.ClientSize = new System.Drawing.Size(1033, 593);
+            this.ClientSize = new System.Drawing.Size(1377, 730);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Gestion Usine V1.0";

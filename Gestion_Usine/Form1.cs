@@ -38,5 +38,15 @@ namespace Gestion_Usine
             Article ArticleForm = new Article();
             ArticleForm.ShowDialog();
         }
+
+        private void fichierToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void quitterToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
