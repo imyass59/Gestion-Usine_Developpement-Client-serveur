@@ -28,3 +28,4 @@ C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Gestion Usine v2\Ge
 C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Gestion Usine v2\Gestion_Usine\obj\Debug\Gestion_Usine.csproj.CoreCompileInputs.cache
 C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Gestion Usine v2\Gestion_Usine\obj\Debug\Gestion_Usine.exe
 C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Gestion Usine v2\Gestion_Usine\obj\Debug\Gestion_Usine.pdb
+C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Gestion Usine v2\Gestion_Usine\obj\Debug\Gestion_Usine.Employe.resources

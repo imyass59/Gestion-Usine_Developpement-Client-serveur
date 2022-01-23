@@ -26,5 +26,12 @@ namespace Gestion_Usine
         {
             
         }
+
+        private void employésToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Employe employe = new Employe();
+            employe.Show();
+        }
     }
 }

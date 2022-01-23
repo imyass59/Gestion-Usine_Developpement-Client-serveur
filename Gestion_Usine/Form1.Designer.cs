@@ -32,7 +32,7 @@ namespace Gestion_Usine
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fichierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.employésToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.employesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.articlesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quitterToolStripMenuItem = new System.Windows.Forms.ToolStripSeparator();
             this.quitterToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -49,8 +49,6 @@ namespace Gestion_Usine
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.aProposToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sommaireDeLaideToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -74,7 +72,7 @@ namespace Gestion_Usine
             // fichierToolStripMenuItem
             // 
             this.fichierToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.employésToolStripMenuItem,
+            this.employesToolStripMenuItem,
             this.articlesToolStripMenuItem,
             this.quitterToolStripMenuItem,
             this.quitterToolStripMenuItem1});
@@ -82,30 +80,31 @@ namespace Gestion_Usine
             this.fichierToolStripMenuItem.Size = new System.Drawing.Size(64, 29);
             this.fichierToolStripMenuItem.Text = "Fichier";
             // 
-            // employésToolStripMenuItem
+            // employesToolStripMenuItem
             // 
-            this.employésToolStripMenuItem.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.employésToolStripMenuItem.Name = "employésToolStripMenuItem";
-            this.employésToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
-            this.employésToolStripMenuItem.Text = "Employés ";
+            this.employesToolStripMenuItem.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.employesToolStripMenuItem.Name = "employesToolStripMenuItem";
+            this.employesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.employesToolStripMenuItem.Text = "Employés ";
+            this.employesToolStripMenuItem.Click += new System.EventHandler(this.employésToolStripMenuItem_Click);
             // 
             // articlesToolStripMenuItem
             // 
             this.articlesToolStripMenuItem.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.articlesToolStripMenuItem.Name = "articlesToolStripMenuItem";
-            this.articlesToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
+            this.articlesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.articlesToolStripMenuItem.Text = "Articles ";
             // 
             // quitterToolStripMenuItem
             // 
             this.quitterToolStripMenuItem.Name = "quitterToolStripMenuItem";
-            this.quitterToolStripMenuItem.Size = new System.Drawing.Size(135, 6);
+            this.quitterToolStripMenuItem.Size = new System.Drawing.Size(177, 6);
             // 
             // quitterToolStripMenuItem1
             // 
             this.quitterToolStripMenuItem1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.quitterToolStripMenuItem1.Name = "quitterToolStripMenuItem1";
-            this.quitterToolStripMenuItem1.Size = new System.Drawing.Size(138, 22);
+            this.quitterToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.quitterToolStripMenuItem1.Text = "Quitter";
             // 
             // productionToolStripMenuItem
@@ -211,36 +210,12 @@ namespace Gestion_Usine
             this.sommaireDeLaideToolStripMenuItem.Text = "Sommaire de l\'aide";
             this.sommaireDeLaideToolStripMenuItem.Click += new System.EventHandler(this.sommaireDeLaideToolStripMenuItem_Click);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(167, 98);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(63, 20);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "ahmad";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label2.Location = new System.Drawing.Point(738, 98);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(153, 24);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "hhhhhhhhhhhhh";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
             this.ClientSize = new System.Drawing.Size(1033, 593);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
@@ -262,7 +237,7 @@ namespace Gestion_Usine
         private System.Windows.Forms.ToolStripMenuItem productionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem etatsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem employésToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem employesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem articlesToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator quitterToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem quitterToolStripMenuItem1;
@@ -276,8 +251,6 @@ namespace Gestion_Usine
         private System.Windows.Forms.ToolStripMenuItem histigrammeDeProductionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aProposToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sommaireDeLaideToolStripMenuItem;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
     }
 }
 
