@@ -32,7 +32,7 @@ namespace Gestion_Usine
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fichierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.employesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.employésToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.articlesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quitterToolStripMenuItem = new System.Windows.Forms.ToolStripSeparator();
             this.quitterToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -54,7 +54,7 @@ namespace Gestion_Usine
             // 
             // menuStrip1
             // 
-            this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(228)))), ((int)(((byte)(225)))));
+            this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(222)))), ((int)(((byte)(255)))));
             this.menuStrip1.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -72,7 +72,7 @@ namespace Gestion_Usine
             // fichierToolStripMenuItem
             // 
             this.fichierToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.employesToolStripMenuItem,
+            this.employésToolStripMenuItem,
             this.articlesToolStripMenuItem,
             this.quitterToolStripMenuItem,
             this.quitterToolStripMenuItem1});
@@ -80,13 +80,13 @@ namespace Gestion_Usine
             this.fichierToolStripMenuItem.Size = new System.Drawing.Size(64, 29);
             this.fichierToolStripMenuItem.Text = "Fichier";
             // 
-            // employesToolStripMenuItem
+            // employésToolStripMenuItem
             // 
-            this.employesToolStripMenuItem.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.employesToolStripMenuItem.Name = "employesToolStripMenuItem";
-            this.employesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.employesToolStripMenuItem.Text = "Employés ";
-            this.employesToolStripMenuItem.Click += new System.EventHandler(this.employésToolStripMenuItem_Click);
+            this.employésToolStripMenuItem.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.employésToolStripMenuItem.Name = "employésToolStripMenuItem";
+            this.employésToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.employésToolStripMenuItem.Text = "Employés ";
+            this.employésToolStripMenuItem.Click += new System.EventHandler(this.employésToolStripMenuItem_Click);
             // 
             // articlesToolStripMenuItem
             // 
@@ -214,7 +214,7 @@ namespace Gestion_Usine
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(229)))), ((int)(((byte)(234)))));
             this.ClientSize = new System.Drawing.Size(1033, 593);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -237,7 +237,7 @@ namespace Gestion_Usine
         private System.Windows.Forms.ToolStripMenuItem productionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem etatsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem employesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem employésToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem articlesToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator quitterToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem quitterToolStripMenuItem1;
