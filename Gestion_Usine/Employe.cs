@@ -13,7 +13,7 @@ namespace Gestion_Usine
 {
     public partial class Employe : Form
     {
-        Database db = new Database();
+        Database con = new Database();
 
         public Employe()
         {
@@ -23,18 +23,18 @@ namespace Gestion_Usine
         private void GetTables()
         {
             // get Employe
-            if (db.ds.Tables["Employe"] != null)
+            if (con.Set.Tables["Employe"] != null)
             {
-                db.ds.Tables["Employe"].Clear();
+                con.Set.Tables["Employe"].Clear();
             }
-            db.Adapter = new SqlDataAdapter("select * from Employe", db.con);
-            db.Adapter.Fill(db.ds, "Employe");
+            con.Adapter = new SqlDataAdapter("select * from Employe", con.db);
+            con.Adapter.Fill(con.Set, "Employe");
         }
 
         private bool Search(int id,string table,string colonm)
         {
             bool RowIndex = false;
-            var result = from row in db.ds.Tables[table.ToString()].AsEnumerable()
+            var result = from row in con.Set.Tables[table.ToString()].AsEnumerable()
                          where row.Field<int>(colonm.ToString()) == (int)id
                          select row;
 
@@ -93,9 +93,9 @@ namespace Gestion_Usine
 
         private void Employe_Load(object sender, EventArgs e)
         {
-            db.Connection();
+            con.Connection();
             GetTables();
-            db.Disconnection();
+            con.Disconnection();
         }
     }
 }

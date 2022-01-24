@@ -10,29 +10,29 @@ namespace Gestion_Usine
 {
     class Database
     {
-        public SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-J5SB1HI;Initial Catalog=Usine;Integrated Security=True");
+        public SqlConnection db = new SqlConnection(@"Data Source=DESKTOP-J5SB1HI;Initial Catalog=Usine;Integrated Security=True");
         public SqlCommand cmd = new SqlCommand();
         public SqlDataReader Reader;
         public SqlDataAdapter Adapter;
-        public DataSet ds = new DataSet();
+        public DataSet Set = new DataSet();
         public DataTable dt = new DataTable();
         public DataRow Row;
         public SqlCommandBuilder Builder;
 
         public void Connection()
         {
-            if (con.State.Equals(ConnectionState.Closed) || con.State.Equals(ConnectionState.Broken))
+            if (db.State.Equals(ConnectionState.Closed) || db.State.Equals(ConnectionState.Broken))
             {
-                con.Open();
+                db.Open();
             }
             return;
         }
 
         public void Disconnection()
         {
-            if (con.State.Equals(ConnectionState.Open))
+            if (db.State.Equals(ConnectionState.Open))
             {
-                con.Close();
+                db.Close();
             }
             return;
         }
