@@ -94,7 +94,11 @@ namespace Gestion_Usine
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            int p = RECHERCHER(textBox1.Text);
+            ds.Tables["Employe"].Rows[pos].Delete();
+            declaration.cd.GetUpdateCommand();
+            declaration.dap.Update(ds.Tables["Employe"]);
+            MessageBox.Show("Supprimé !");
         }
 
         private void button2_Click(object sender, EventArgs e)
