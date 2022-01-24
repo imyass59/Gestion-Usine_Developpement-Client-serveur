@@ -20,27 +20,6 @@ namespace Gestion_Usine
             InitializeComponent();
         }
 
-        private void GetTables()
-        {
-            // get Employe
-            if (con.Set.Tables["Employe"] != null)
-            {
-                con.Set.Tables["Employe"].Clear();
-            }
-            con.Adapter = new SqlDataAdapter("select * from Employe", con.db);
-            con.Adapter.Fill(con.Set, "Employe");
-        }
-
-        private bool Search(int id,string table,string colonm)
-        {
-            bool RowIndex = false;
-            var result = from row in con.Set.Tables[table.ToString()].AsEnumerable()
-                         where row.Field<int>(colonm.ToString()) == (int)id
-                         select row;
-
-            return false;
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             
@@ -75,6 +54,9 @@ namespace Gestion_Usine
         private void button2_Click(object sender, EventArgs e)
         {
             if(textBox1.Text!="" || textBox2.Text != "" || textBox3.Text == "" || textBox5.Text != "" || maskedTextBox1.Text != "" || maskedTextBox2.Text != "")
+            {
+
+            }
             
         }
 
@@ -90,9 +72,7 @@ namespace Gestion_Usine
 
         private void Employe_Load(object sender, EventArgs e)
         {
-            con.Connection();
-            GetTables();
-            con.Disconnection();
+
         }
     }
 }
