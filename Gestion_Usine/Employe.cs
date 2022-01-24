@@ -66,7 +66,7 @@ namespace Gestion_Usine
                                     where row.Field<int>("Mat") == 1
                                     select row;
             */
-            int i, pos = -1;
+            /*int i, pos = -1;
             for (i = 0; i < ds.Tables["Employe"].Rows.Count;i++)
             {
                 if (ds.Tables["Employe"].Rows[i][0].ToString() == textBox1.Text)
@@ -89,36 +89,36 @@ namespace Gestion_Usine
             else
             {
                 MessageBox.Show("Employe n'exsiste pas!");
-            }
+            }*/
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            int p = RECHERCHER(textBox1.Text);
+            /*int p = RECHERCHER(textBox1.Text);
             ds.Tables["Employe"].Rows[pos].Delete();
             declaration.cd.GetUpdateCommand();
             declaration.dap.Update(ds.Tables["Employe"]);
-            MessageBox.Show("Supprimé !");
+            MessageBox.Show("Supprimé !");*/
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             if(textBox1.Text!="" || textBox2.Text != "" || textBox3.Text == "" || textBox5.Text != "" || maskedTextBox1.Text != "" || maskedTextBox2.Text != "")
             {
-                ds.Tables["Employe"].Rows.Add(textBox1.Text, textBox2.Text, textBox3.Text, textBox5.Text, maskedTextBox1.Text, maskedTextBox2.Text);
+               /* ds.Tables["Employe"].Rows.Add(textBox1.Text, textBox2.Text, textBox3.Text, textBox5.Text, maskedTextBox1.Text, maskedTextBox2.Text);
                 declaration.cd.GetUpdateCommand();
                 declaration.dap.Update(ds.Tables["Employe"]);
                 MessageBox.Show("Bien ajouté");
             }
             else 
             {
-                MessageBox.Show("Réussir");
+                MessageBox.Show("Réussir"); */
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
                        //Recherche la ligne modifier
-            int p = RECHERCHER(textBox1.Text);
+            /*int p = RECHERCHER(textBox1.Text);
             ds.Tables["Employe"].Rows[pos][1] = textBox1.Text;
             ds.Tables["Employe"].Rows[pos][2] = textBox2.Text;
             ds.Tables["Employe"].Rows[pos][3] = textBox3.Text;
@@ -128,7 +128,7 @@ namespace Gestion_Usine
 
             declaration.cd.GetUpdateCommand();
             declaration.dap.Update(ds.Tables["Employe"]);
-            MessageBox.Show("Bien modifier");
+            MessageBox.Show("Bien modifier"); */
         }
 
         private void button6_Click(object sender, EventArgs e)
