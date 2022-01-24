@@ -66,6 +66,30 @@ namespace Gestion_Usine
                                     where row.Field<int>("Mat") == 1
                                     select row;
             */
+            int i, pos = -1;
+            for (i = 0; i < ds.Tables["Employe"].Rows.Count;i++)
+            {
+                if (ds.Tables["Employe"].Rows[i][0].ToString() == textBox1.Text)
+                {
+                    pos = i;     //trouvé
+                    break;  //arrété de la recherche
+
+                }
+            }
+            //affichage
+            if (pos!= -1)
+            {
+            textBox1.Text = ds.Tables["Employe"].Rows[pos][1].ToString();
+            textBox2.Text = ds.Tables["Employe"].Rows[pos][2].ToString();
+            textBox3.Text = ds.Tables["Employe"].Rows[pos][3].ToString();
+            textBox5.Text = ds.Tables["Employe"].Rows[pos][4].ToString();
+            maskedTextBox1.Text = ds.Tables["Employe"].Rows[pos][5].ToString();
+            maskedTextBox2.Text = ds.Tables["Employe"].Rows[pos][6].ToString();
+            }
+            else
+            {
+                MessageBox.Show("Employe n'exsiste pas!")
+            }
         }
 
         private void button5_Click(object sender, EventArgs e)
