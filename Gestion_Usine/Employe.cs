@@ -88,7 +88,7 @@ namespace Gestion_Usine
             }
             else
             {
-                MessageBox.Show("Employe n'exsiste pas!")
+                MessageBox.Show("Employe n'exsiste pas!");
             }
         }
 
