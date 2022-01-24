@@ -278,6 +278,7 @@ namespace Gestion_Usine
             this.Padding = new System.Windows.Forms.Padding(20, 20, 20, 20);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Gestion des employés";
+            this.Load += new System.EventHandler(this.Employe_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
