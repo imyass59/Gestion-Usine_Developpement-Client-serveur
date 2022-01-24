@@ -33,12 +33,6 @@ namespace Gestion_Usine
             }
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Form1 f1 = new Form1();
-            f1.Show();
-        }
 
         private void button3_Click(object sender, EventArgs e)
         {
