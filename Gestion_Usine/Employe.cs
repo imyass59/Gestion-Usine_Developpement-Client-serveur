@@ -101,8 +101,14 @@ namespace Gestion_Usine
         {
             if(textBox1.Text!="" || textBox2.Text != "" || textBox3.Text == "" || textBox5.Text != "" || maskedTextBox1.Text != "" || maskedTextBox2.Text != "")
             {
-                
+                ds.Tables["Employe"].Rows.Add(textBox1.Text, textBox2.Text, textBox3.Text, textBox5.Text, maskedTextBox1.Text, maskedTextBox2.Text);
+                declaration.cd.GetUpdateCommand();
+                declaration.dap.Update(ds.Tables["Employe"]);
+                MessageBox.Show("Bien ajouté");
             }
+            else 
+            {
+                MessageBox.Show("Réussir");
         }
 
         private void button4_Click(object sender, EventArgs e)
