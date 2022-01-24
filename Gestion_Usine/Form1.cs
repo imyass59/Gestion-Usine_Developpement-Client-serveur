@@ -29,7 +29,7 @@ namespace Gestion_Usine
 
         private void employésToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Employe employe = new Employe();
+            Employes employe = new Employes();
             employe.ShowDialog();
         }
 

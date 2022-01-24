@@ -1,7 +1,7 @@
 ﻿
 namespace Gestion_Usine
 {
-    partial class Employe
+    partial class Employes
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace Gestion_Usine
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Employe));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Employes));
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -246,7 +246,7 @@ namespace Gestion_Usine
             this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
-            // Employe
+            // Employes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -274,8 +274,8 @@ namespace Gestion_Usine
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.Name = "Employe";
-            this.Padding = new System.Windows.Forms.Padding(20, 20, 20, 20);
+            this.Name = "Employes";
+            this.Padding = new System.Windows.Forms.Padding(20);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Gestion des employés";
             this.Load += new System.EventHandler(this.Employe_Load);

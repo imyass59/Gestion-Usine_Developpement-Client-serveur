@@ -11,11 +11,11 @@ using System.Windows.Forms;
 
 namespace Gestion_Usine
 {
-    public partial class Employe : Form
+    public partial class Employes : Form
     {
         Database con = new Database();
-
-        public Employe()
+        DataEmployeDataContext dataEmploye = new DataEmployeDataContext();
+        public Employes()
         {
             InitializeComponent();
         }
@@ -53,11 +53,42 @@ namespace Gestion_Usine
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if(textBox1.Text!="" || textBox2.Text != "" || textBox3.Text == "" || textBox5.Text != "" || maskedTextBox1.Text != "" || maskedTextBox2.Text != "")
+            SqlTransaction transaction = null;
+            con.Connection();
+            transaction = con.db.BeginTransaction();
+            try
             {
+                var result = dataEmploye.Employes.SingleOrDefault(row => row.Mat == Convert.ToInt32(textBox1.Text));
+                if (textBox1.Text != "" || textBox2.Text != "" || textBox3.Text == "" || textBox5.Text != "" || maskedTextBox1.Text != "" || maskedTextBox2.Text != "")
+                {
+                    Employe emp = new Employe
+                    {
+                        Mat = int.Parse(textBox1.Text),
+                        Nom = textBox2.Text.Trim(),
+                        Prenom = textBox3.Text.Trim(),
+                        DN = DateTime.Parse(maskedTextBox1.Text),
+                        Adresse = textBox5.Text.Trim(),
+                        Tel = maskedTextBox2.Text.Trim()
+                    };
 
+                    dataEmploye.Employes.InsertOnSubmit(emp);
+                    dataEmploye.SubmitChanges();
+                    transaction.Commit();
+                    MessageBox.Show("Employé Ajouté Avec Succès", "Ajouter",MessageBoxButtons.OK,MessageBoxIcon.Information);
+                    textBox1.Text = "";
+                    textBox2.Text = "";
+                    textBox3.Text = "";
+                    textBox5.Text = "";
+                    maskedTextBox1.Text = "";
+                    maskedTextBox2.Text = "";
+                }
             }
-            
+            catch
+            {
+                transaction.Rollback();
+                MessageBox.Show("Employé N'est pas Ajouté par Succès", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            con.Disconnection();
         }
 
         private void button4_Click(object sender, EventArgs e)
