@@ -70,6 +70,31 @@ namespace Gestion_Usine
 
         private void button5_Click(object sender, EventArgs e)
         {
+            SqlTransaction transaction = null;
+            con.Connection();
+            transaction = con.db.BeginTransaction();
+            try
+            {
+                var result = dataEmploye.Employes.SingleOrDefault(row => row.Mat == Convert.ToInt32(textBox1.Text));
+
+                if (textBox1.Text == "")
+                {
+                    MessageBox.Show("Enter Matricule D'un Employé", "Supprimmer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else
+                {
+                    dataEmploye.Employes.DeleteOnSubmit(result);
+                    dataEmploye.SubmitChanges();
+                    MessageBox.Show("Employé Supprimmer Avec Succès", "Supprimmer", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    transaction.Commit();
+                }
+            }
+            catch
+            {
+                transaction.Rollback();
+                MessageBox.Show("Une erreur s'est produite. Veuillez réessayer", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            con.Disconnection();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -125,7 +150,7 @@ namespace Gestion_Usine
             {
                 var result = dataEmploye.Employes.SingleOrDefault(row => row.Mat == Convert.ToInt32(textBox1.Text));
 
-                if(result.Mat != Convert.ToInt32(textBox1.Text))
+                if(textBox1.Text == "")
                 {
                     MessageBox.Show("Ne modifiez pas Matricule D'un Employé", "Modifier", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
