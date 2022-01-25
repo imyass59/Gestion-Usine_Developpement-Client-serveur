@@ -36,9 +36,6 @@ namespace Gestion_Usine
         private void articlesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             
-            Article a = new Article();
-            a.ShowDialog();
-            
         }
 
         private void fichierToolStripMenuItem_Click(object sender, EventArgs e)

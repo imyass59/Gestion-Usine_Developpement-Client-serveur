@@ -14,7 +14,7 @@ namespace Gestion_Usine
     public partial class Employes : Form
     {
         Database con = new Database();
-        DataEmployeDataContext dataEmploye = new DataEmployeDataContext();
+        UsineDataContext dataEmploye = new UsineDataContext();
         public Employes()
         {
             InitializeComponent();
@@ -104,39 +104,31 @@ namespace Gestion_Usine
             transaction = con.db.BeginTransaction();
             try
             {
-                var result = dataEmploye.Employes.SingleOrDefault(row => row.Mat == Convert.ToInt32(textBox1.Text));
-                if (textBox1.Text != "" && textBox2.Text != "" && textBox3.Text == "" && textBox5.Text != "" && maskedTextBox1.Text != "" && maskedTextBox2.Text != "" && result != null)
-                {
-                    Employe emp = new Employe
-                    {
-                        Mat = int.Parse(textBox1.Text),
-                        Nom = textBox2.Text.Trim(),
-                        Prenom = textBox3.Text.Trim(),
-                        DN = DateTime.Parse(maskedTextBox1.Text),
-                        Adresse = textBox5.Text.Trim(),
-                        Tel = maskedTextBox2.Text.Trim()
-                    };
+                //var result = dataEmploye.Employes.Single(row => row.Mat == int.Parse(textBox1.Text));
+                Employe emp = new Employe();
+                emp.Mat = int.Parse(textBox1.Text.ToString());
+                emp.Nom = textBox2.Text.ToString();
+                emp.Prenom = textBox3.Text.ToString();
+                emp.DN = DateTime.Parse(maskedTextBox1.Text.ToString());
+                emp.Adresse = textBox5.Text.ToString();
+                emp.Tel = maskedTextBox2.Text.ToString();
 
-                    dataEmploye.Employes.InsertOnSubmit(emp);
-                    dataEmploye.SubmitChanges();
-                    MessageBox.Show("Employé Ajouté Avec Succès", "Ajouter", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    transaction.Commit();
-                    textBox1.Text = "";
-                    textBox2.Text = "";
-                    textBox3.Text = "";
-                    textBox5.Text = "";
-                    maskedTextBox1.Text = "";
-                    maskedTextBox2.Text = "";
-                }
-                else
-                {
-                    MessageBox.Show("Employé N'est pas Ajouté par Succès", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
+                dataEmploye.Employes.InsertOnSubmit(emp);
+                dataEmploye.SubmitChanges();
+                MessageBox.Show("Employé Ajouté Avec Succès", "Ajouter", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                transaction.Commit();
+                textBox1.Text = "";
+                textBox2.Text = "";
+                textBox3.Text = "";
+                textBox5.Text = "";
+                maskedTextBox1.Text = "";
+                maskedTextBox2.Text = "";
             }
-            catch
+            catch(Exception ex)
             {
                 transaction.Rollback();
-                MessageBox.Show("Une Erreur s'est Produite. Veuillez réessayer", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.ToString());
+                //MessageBox.Show("Une Erreur s'est Produite. Veuillez réessayer", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             con.Disconnection();
         }
@@ -156,14 +148,17 @@ namespace Gestion_Usine
                 }
                 else
                 {
-                    result.Nom = textBox2.Text.Trim();
-                    result.Prenom = textBox3.Text.Trim();
-                    result.DN = DateTime.Parse(maskedTextBox1.Text);
-                    result.Adresse = textBox5.Text.Trim();
-                    result.Tel = maskedTextBox2.Text.Trim();
-                    dataEmploye.SubmitChanges();
-                    MessageBox.Show("Employé Modifier Avec Succès", "Modifier", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    transaction.Commit();
+                    if(textBox1.Text != "" || textBox2.Text != "" || textBox3.Text != "" || textBox5.Text != "" || maskedTextBox1.Text != "" || maskedTextBox2.Text != "" || result == null)
+                    {
+                        result.Nom = textBox2.Text.Trim();
+                        result.Prenom = textBox3.Text.Trim();
+                        result.DN = DateTime.Parse(maskedTextBox1.Text);
+                        result.Adresse = textBox5.Text.Trim();
+                        result.Tel = maskedTextBox2.Text.Trim();
+                        dataEmploye.SubmitChanges();
+                        MessageBox.Show("Employé Modifier Avec Succès", "Modifier", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        transaction.Commit();
+                    }
                 }
             }
             catch

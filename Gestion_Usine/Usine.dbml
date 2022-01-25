@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Usine" Class="UsineDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=Usine;Integrated Security=True" SettingsObjectName="Gestion_Usine.Properties.Settings" SettingsPropertyName="UsineConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Article" Member="Articles">
+    <Type Name="Article">
+      <Column Name="codea" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Designation" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Prix" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="stock" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Article_Production" Member="Productions" ThisKey="codea" OtherKey="codea" Type="Production" />
+      <Association Name="Article_wproduction" Member="wproductions" ThisKey="codea" OtherKey="codea" Type="wproduction" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Employe" Member="Employes">
+    <Type Name="Employe">
+      <Column Name="Mat" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Nom" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Prenom" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="DN" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Adresse" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Tel" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Association Name="Employe_Production" Member="Productions" ThisKey="Mat" OtherKey="Mat" Type="Production" />
+      <Association Name="Employe_wproduction" Member="wproductions" ThisKey="Mat" OtherKey="Mat" Type="wproduction" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Production" Member="Productions">
+    <Type Name="Production">
+      <Column Name="Num" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DP" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Mat" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="codea" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="qtitep" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Article_Production" Member="Article" ThisKey="codea" OtherKey="codea" Type="Article" IsForeignKey="true" />
+      <Association Name="Employe_Production" Member="Employe" ThisKey="Mat" OtherKey="Mat" Type="Employe" IsForeignKey="true" />
+      <Association Name="wproduction_Production" Member="wproduction" ThisKey="Num" OtherKey="Num" Type="wproduction" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.wproduction" Member="wproductions">
+    <Type Name="wproduction">
+      <Column Name="Num" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DP" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Mat" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NP" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="codea" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Designation" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="qp" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="wproduction_Production" Member="Productions" ThisKey="Num" OtherKey="Num" Type="Production" />
+      <Association Name="Article_wproduction" Member="Article" ThisKey="codea" OtherKey="codea" Type="Article" IsForeignKey="true" />
+      <Association Name="Employe_wproduction" Member="Employe" ThisKey="Mat" OtherKey="Mat" Type="Employe" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

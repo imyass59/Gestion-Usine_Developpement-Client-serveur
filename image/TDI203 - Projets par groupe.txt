@@ -1,0 +1,33 @@
+Groupes Projets TDI203 :
+
+- Groupe 1 : Projet Usine de Production
+	- Ilyass ELKHADIRI
+	- Mehdi CHIHEB
+	- BENKHAYI MOHAMMED
+	- NAOUFEL AKEL
+	- Anas Doudouz
+	
+- Groupe 2 : Gestion des transactions des comptes bancaires
+	- Aymane EL MASKI
+	- Aymane KARKICH
+	- NABIL KHADROUNE
+	- RACHDI YOUSSEF
+	- Mohammed El ASRI
+	
+- Groupe 3 : Application gestion de stagiaire
+	- ZIAD ID BRAHIM
+	- AYMANE IFIZIG
+	- HAMZA FALLAHI
+	- BAGHATI Mohamed
+	
+- Groupe 4 : Application gestion de temps
+	- Ziyad MJILLA
+	- SAFAE EL HADOUDI
+	- WIAME LEKMIHI
+	- OUSSAMA SAHBI
+
+- Groupe 5 : Application Gestion Projet
+	- MOHAMED AMINE DRIOUCH
+	- BADIAA STATI
+	- KAOuTAR LEMSI
+	- Salma HAMIMI

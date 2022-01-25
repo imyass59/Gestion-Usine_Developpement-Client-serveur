@@ -59,7 +59,6 @@ C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Usine\Gestion_Usine
 C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Usine\Gestion_Usine\bin\Debug\Gestion_Usine.exe
 C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Usine\Gestion_Usine\bin\Debug\Gestion_Usine.pdb
 C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Usine\Gestion_Usine\obj\Debug\Gestion_Usine.csproj.AssemblyReference.cache
-C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Usine\Gestion_Usine\obj\Debug\Gestion_Usine.Article.resources
 C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Usine\Gestion_Usine\obj\Debug\Gestion_Usine.Form1.resources
 C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Usine\Gestion_Usine\obj\Debug\Gestion_Usine.Properties.Resources.resources
 C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Usine\Gestion_Usine\obj\Debug\Gestion_Usine.SaisieProduction.resources
