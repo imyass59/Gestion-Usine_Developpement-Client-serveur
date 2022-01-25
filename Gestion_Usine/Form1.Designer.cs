@@ -66,7 +66,7 @@ namespace Gestion_Usine
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
             this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.menuStrip1.Size = new System.Drawing.Size(1033, 33);
+            this.menuStrip1.Size = new System.Drawing.Size(984, 33);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -86,7 +86,7 @@ namespace Gestion_Usine
             // 
             this.employésToolStripMenuItem.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.employésToolStripMenuItem.Name = "employésToolStripMenuItem";
-            this.employésToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
+            this.employésToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.employésToolStripMenuItem.Text = "Employés ";
             this.employésToolStripMenuItem.Click += new System.EventHandler(this.employésToolStripMenuItem_Click);
             // 
@@ -94,20 +94,20 @@ namespace Gestion_Usine
             // 
             this.articlesToolStripMenuItem.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.articlesToolStripMenuItem.Name = "articlesToolStripMenuItem";
-            this.articlesToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
+            this.articlesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.articlesToolStripMenuItem.Text = "Articles ";
             this.articlesToolStripMenuItem.Click += new System.EventHandler(this.articlesToolStripMenuItem_Click);
             // 
             // quitterToolStripMenuItem
             // 
             this.quitterToolStripMenuItem.Name = "quitterToolStripMenuItem";
-            this.quitterToolStripMenuItem.Size = new System.Drawing.Size(135, 6);
+            this.quitterToolStripMenuItem.Size = new System.Drawing.Size(177, 6);
             // 
             // quitterToolStripMenuItem1
             // 
             this.quitterToolStripMenuItem1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.quitterToolStripMenuItem1.Name = "quitterToolStripMenuItem1";
-            this.quitterToolStripMenuItem1.Size = new System.Drawing.Size(138, 22);
+            this.quitterToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.quitterToolStripMenuItem1.Text = "Quitter";
             this.quitterToolStripMenuItem1.Click += new System.EventHandler(this.quitterToolStripMenuItem1_Click);
             // 
@@ -219,8 +219,9 @@ namespace Gestion_Usine
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(229)))), ((int)(((byte)(234)))));
-            this.ClientSize = new System.Drawing.Size(1033, 515);
+            this.ClientSize = new System.Drawing.Size(984, 511);
             this.Controls.Add(this.menuStrip1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4);

@@ -30,9 +30,9 @@ namespace Gestion_Usine
 		
     #region Extensibility Method Definitions
     partial void OnCreated();
-    partial void InsertArticle(Article instance);
-    partial void UpdateArticle(Article instance);
-    partial void DeleteArticle(Article instance);
+    partial void InsertArticle(articles instance);
+    partial void UpdateArticle(articles instance);
+    partial void DeleteArticle(articles instance);
     partial void InsertEmploye(Employe instance);
     partial void UpdateEmploye(Employe instance);
     partial void DeleteEmploye(Employe instance);
@@ -71,11 +71,11 @@ namespace Gestion_Usine
 			OnCreated();
 		}
 		
-		public System.Data.Linq.Table<Article> Articles
+		public System.Data.Linq.Table<articles> Articles
 		{
 			get
 			{
-				return this.GetTable<Article>();
+				return this.GetTable<articles>();
 			}
 		}
 		
@@ -105,7 +105,7 @@ namespace Gestion_Usine
 	}
 	
 	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.Article")]
-	public partial class Article : INotifyPropertyChanging, INotifyPropertyChanged
+	public partial class articles : INotifyPropertyChanging, INotifyPropertyChanged
 	{
 		
 		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
@@ -134,7 +134,7 @@ namespace Gestion_Usine
     partial void OnstockChanged();
     #endregion
 		
-		public Article()
+		public articles()
 		{
 			this._wproductions = new EntitySet<wproduction>(new Action<wproduction>(this.attach_wproductions), new Action<wproduction>(this.detach_wproductions));
 			OnCreated();
@@ -595,7 +595,7 @@ namespace Gestion_Usine
 		
 		private System.Nullable<int> _qp;
 		
-		private EntityRef<Article> _Article;
+		private EntityRef<articles> _Article;
 		
 		private EntityRef<Employe> _Employe;
 		
@@ -621,7 +621,7 @@ namespace Gestion_Usine
 		
 		public wproduction()
 		{
-			this._Article = default(EntityRef<Article>);
+			this._Article = default(EntityRef<articles>);
 			this._Employe = default(EntityRef<Employe>);
 			OnCreated();
 		}
@@ -775,7 +775,7 @@ namespace Gestion_Usine
 		}
 		
 		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="Article_wproduction", Storage="_Article", ThisKey="codea", OtherKey="codea", IsForeignKey=true)]
-		public Article Article
+		public articles Article
 		{
 			get
 			{
@@ -783,7 +783,7 @@ namespace Gestion_Usine
 			}
 			set
 			{
-				Article previousValue = this._Article.Entity;
+				articles previousValue = this._Article.Entity;
 				if (((previousValue != value) 
 							|| (this._Article.HasLoadedOrAssignedValue == false)))
 				{

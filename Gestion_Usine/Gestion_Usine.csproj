@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Article.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article.Designer.cs">
+      <DependentUpon>Article.cs</DependentUpon>
+    </Compile>
     <Compile Include="Database.cs" />
     <Compile Include="Employe.cs">
       <SubType>Form</SubType>
@@ -78,6 +84,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>UsineDataSet.xsd</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Article.resx">
+      <DependentUpon>Article.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Employe.resx">
       <DependentUpon>Employe.cs</DependentUpon>
     </EmbeddedResource>

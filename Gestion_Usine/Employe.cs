@@ -102,9 +102,9 @@ namespace Gestion_Usine
             SqlTransaction transaction = null;
             con.Connection();
             transaction = con.db.BeginTransaction();
+            var result = dataEmploye.Employes.SingleOrDefault(row => row.Mat == int.Parse(textBox1.Text));
             try
             {
-                //var result = dataEmploye.Employes.Single(row => row.Mat == int.Parse(textBox1.Text));
                 Employe emp = new Employe();
                 emp.Mat = int.Parse(textBox1.Text.ToString());
                 emp.Nom = textBox2.Text.ToString();
@@ -124,11 +124,10 @@ namespace Gestion_Usine
                 maskedTextBox1.Text = "";
                 maskedTextBox2.Text = "";
             }
-            catch(Exception ex)
+            catch
             {
                 transaction.Rollback();
-                MessageBox.Show(ex.ToString());
-                //MessageBox.Show("Une Erreur s'est Produite. Veuillez réessayer", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Une Erreur s'est Produite. Veuillez réessayer", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             con.Disconnection();
         }
@@ -140,9 +139,8 @@ namespace Gestion_Usine
             transaction = con.db.BeginTransaction();
             try
             {
-                var result = dataEmploye.Employes.SingleOrDefault(row => row.Mat == Convert.ToInt32(textBox1.Text));
-
-                if(textBox1.Text == "")
+                var result = dataEmploye.Employes.Single(row => row.Mat == Convert.ToInt32(textBox1.Text));
+                if (textBox1.Text == "")
                 {
                     MessageBox.Show("Ne modifiez pas Matricule D'un Employé", "Modifier", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }

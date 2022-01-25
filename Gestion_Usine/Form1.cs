@@ -33,10 +33,6 @@ namespace Gestion_Usine
             employe.ShowDialog();
         }
 
-        private void articlesToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            
-        }
 
         private void fichierToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -46,6 +42,12 @@ namespace Gestion_Usine
         private void quitterToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void articlesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Article article = new Article();
+            article.ShowDialog();
         }
     }
 }
