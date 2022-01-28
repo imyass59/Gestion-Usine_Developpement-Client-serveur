@@ -154,6 +154,7 @@ namespace Gestion_Usine
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ValidSaisie";
             this.Padding = new System.Windows.Forms.Padding(20);
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Validation de Saisie";
             this.ResumeLayout(false);
             this.PerformLayout();

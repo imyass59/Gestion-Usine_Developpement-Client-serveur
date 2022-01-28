@@ -61,5 +61,11 @@ namespace Gestion_Usine
             Consultation consultation = new Consultation();
             consultation.ShowDialog();
         }
+
+        private void validationDeLaSaisieToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ValidSaisie validSaisie = new ValidSaisie();
+            validSaisie.ShowDialog();
+        }
     }
 }

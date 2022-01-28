@@ -135,6 +135,7 @@ namespace Gestion_Usine
             this.validationDeLaSaisieToolStripMenuItem.Name = "validationDeLaSaisieToolStripMenuItem";
             this.validationDeLaSaisieToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
             this.validationDeLaSaisieToolStripMenuItem.Text = "Validation de la saisie";
+            this.validationDeLaSaisieToolStripMenuItem.Click += new System.EventHandler(this.validationDeLaSaisieToolStripMenuItem_Click);
             // 
             // consultationToolStripMenuItem
             // 
@@ -228,7 +229,7 @@ namespace Gestion_Usine
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Gestion Usine V1.0";
+            this.Text = "Gestion Usine v1.0.3";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
