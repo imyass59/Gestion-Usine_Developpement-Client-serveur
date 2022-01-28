@@ -55,5 +55,11 @@ namespace Gestion_Usine
             Saisie saisie = new Saisie();
             saisie.ShowDialog();
         }
+
+        private void consultationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Consultation consultation = new Consultation();
+            consultation.ShowDialog();
+        }
     }
 }

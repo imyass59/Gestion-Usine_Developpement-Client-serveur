@@ -83,3 +83,5 @@ C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Usine\Gestion_Usine
 C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Usine\Gestion_Usine\bin\Debug\Bunifu_UI_v1.5.3.dll
 C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Usine\Gestion_Usine\obj\Debug\Gestion_Usine.csproj.CopyComplete
 C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Usine\Gestion_Usine\obj\Debug\Gestion_Usine.Saisie.resources
+C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Usine\Gestion_Usine\obj\Debug\Gestion_Usine.Consultation.resources
+C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Usine\Gestion_Usine\obj\Debug\Gestion_Usine.ValidSaisie.resources
