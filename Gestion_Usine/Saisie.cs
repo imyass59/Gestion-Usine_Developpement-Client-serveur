@@ -31,6 +31,7 @@ namespace Gestion_Usine
             comboBox3.DisplayMember = "codea";
             comboBox3.ValueMember = "codea";
 
+            
             check();
         }
 
@@ -71,7 +72,7 @@ namespace Gestion_Usine
 
             if(result.Count() > 0)
             {
-                bunifuProgressBar1.BackColor = Color.FromArgb(218, 0, 55);
+                
             }
             else
             {
@@ -82,6 +83,7 @@ namespace Gestion_Usine
         private void button3_Click(object sender, EventArgs e)
         {
             SqlTransaction transaction = null;
+            con.Connection();
             transaction = con.db.BeginTransaction();
             try
             {
@@ -113,6 +115,7 @@ namespace Gestion_Usine
                 MessageBox.Show("Une erreur s'est produite. Veuillez réessayer", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
+            con.Disconnection();
         }
     }
 }

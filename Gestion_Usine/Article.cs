@@ -41,7 +41,7 @@ namespace Gestion_Usine
             int exist = 0;
             for (var i = 0; i < con.Set.Tables["Article"].Rows.Count; i++)
             {
-                if (int.Parse(con.Set.Tables["Article"].Rows[i][0].ToString()) == id)
+                if(int.Parse(con.Set.Tables["Article"].Rows[i][0].ToString()) == id)
                 {
                     exist = 1;
                 }
@@ -66,13 +66,13 @@ namespace Gestion_Usine
         {
             try
             {
-                if (Rechercher(int.Parse(textBox1.Text.ToString())) == 0 || textBox1.Text != "" || textBox2.Text != "" || textBox3.Text != "" || textBox5.Text != "")
+                if(Rechercher(int.Parse(textBox1.Text)) != 1)
                 {
                     con.Row = con.Set.Tables["Article"].NewRow();
-                    con.Row[0] = int.Parse(textBox1.Text.ToString());
+                    con.Row[0] = int.Parse(textBox1.Text.Trim());
                     con.Row[1] = textBox2.Text;
-                    con.Row[2] = float.Parse(textBox3.Text.ToString());
-                    con.Row[3] = int.Parse(textBox5.Text.ToString());
+                    con.Row[2] = float.Parse(textBox3.Text.Trim());
+                    con.Row[3] = int.Parse(textBox5.Text.Trim());
                     con.Set.Tables["Article"].Rows.Add(con.Row);
                     MessageBox.Show("Article Ajouté Avec Succès", "Ajouter", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     textBox1.Text = "";
@@ -80,11 +80,11 @@ namespace Gestion_Usine
                     textBox3.Text = "";
                     textBox5.Text = "";
                 }
-                else
-                {
-                    MessageBox.Show("Une Erreur s'est Produite. Veuillez réessayer", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    return;
-                }
+                //else
+                //{
+                //    MessageBox.Show("Une Erreur s'est Produite. Veuillez réessayer", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                //    return;
+                //}
             }
             catch
             {
@@ -101,7 +101,7 @@ namespace Gestion_Usine
                     if (int.Parse(con.Set.Tables["Article"].Rows[i][0].ToString()) == int.Parse(textBox1.Text.ToString()))
                     {
                         con.Set.Tables["Article"].Rows[i].Delete();
-                        MessageBox.Show("Employé Supprimmer Avec Succès", "Supprimmer", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show("Article Supprimmer Avec Succès", "Supprimmer", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         break;
                     }
                 }
@@ -156,7 +156,7 @@ namespace Gestion_Usine
                 }
                 else
                 {
-                    MessageBox.Show("(1) Employé a été Trouvé Avec Succès", "Rechercher", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("(1) Article a été Trouvé Avec Succès", "Rechercher", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
             catch

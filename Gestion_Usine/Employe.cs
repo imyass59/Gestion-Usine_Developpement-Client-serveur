@@ -40,6 +40,7 @@ namespace Gestion_Usine
         private void button3_Click(object sender, EventArgs e)
         {
             SqlTransaction transaction = null;
+            con.Connection();
             transaction = con.db.BeginTransaction();
             try
             {
@@ -64,6 +65,7 @@ namespace Gestion_Usine
                 transaction.Rollback();
                 MessageBox.Show("Une erreur s'est produite. Veuillez réessayer", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            con.Disconnection();
         }
 
         private void button5_Click(object sender, EventArgs e)
