@@ -24,7 +24,7 @@ namespace Gestion_Usine
 
         private void sommaireDeLaideToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void employésToolStripMenuItem_Click(object sender, EventArgs e)
@@ -48,6 +48,12 @@ namespace Gestion_Usine
         {
             Article article = new Article();
             article.ShowDialog();
+        }
+
+        private void saisieToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Saisie saisie = new Saisie();
+            saisie.ShowDialog();
         }
     }
 }

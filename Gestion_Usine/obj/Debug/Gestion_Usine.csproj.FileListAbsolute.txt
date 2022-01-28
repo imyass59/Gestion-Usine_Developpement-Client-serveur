@@ -61,7 +61,6 @@ C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Usine\Gestion_Usine
 C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Usine\Gestion_Usine\obj\Debug\Gestion_Usine.csproj.AssemblyReference.cache
 C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Usine\Gestion_Usine\obj\Debug\Gestion_Usine.Form1.resources
 C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Usine\Gestion_Usine\obj\Debug\Gestion_Usine.Properties.Resources.resources
-C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Usine\Gestion_Usine\obj\Debug\Gestion_Usine.SaisieProduction.resources
 C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Usine\Gestion_Usine\obj\Debug\Gestion_Usine.csproj.GenerateResource.cache
 C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Usine\Gestion_Usine\obj\Debug\Gestion_Usine.csproj.CoreCompileInputs.cache
 C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Usine\Gestion_Usine\obj\Debug\Gestion_Usine.exe
@@ -81,3 +80,6 @@ C:\Users\HP\Source\Repos\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_
 C:\Users\HP\Source\Repos\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\obj\Debug\Gestion_Usine.pdb
 C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Usine\Gestion_Usine\obj\Debug\Gestion_Usine.Employes.resources
 C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Usine\Gestion_Usine\obj\Debug\Gestion_Usine.Article.resources
+C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Usine\Gestion_Usine\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Usine\Gestion_Usine\obj\Debug\Gestion_Usine.csproj.CopyComplete
+C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Usine\Gestion_Usine\obj\Debug\Gestion_Usine.Saisie.resources

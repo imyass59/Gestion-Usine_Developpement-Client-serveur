@@ -66,12 +66,7 @@ namespace Gestion_Usine
         {
             try
             {
-                if (textBox1.Text == "" || textBox2.Text == "" || textBox3.Text == "" || textBox5.Text == "")
-                {
-                    MessageBox.Show("Veuillez remplir tous les champs","Erreur",MessageBoxButtons.OK,MessageBoxIcon.Error);
-                    return;
-                }
-                if (Rechercher(int.Parse(textBox1.Text.ToString())) == 0)
+                if (Rechercher(int.Parse(textBox1.Text.ToString())) == 0 || textBox1.Text != "" || textBox2.Text != "" || textBox3.Text != "" || textBox5.Text != "")
                 {
                     con.Row = con.Set.Tables["Article"].NewRow();
                     con.Row[0] = int.Parse(textBox1.Text.ToString());
@@ -87,7 +82,8 @@ namespace Gestion_Usine
                 }
                 else
                 {
-                    MessageBox.Show("Aleardy Exists","Erreur",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                    MessageBox.Show("Une Erreur s'est Produite. Veuillez réessayer", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
                 }
             }
             catch
