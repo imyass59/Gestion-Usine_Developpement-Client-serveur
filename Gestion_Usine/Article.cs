@@ -70,9 +70,9 @@ namespace Gestion_Usine
                 {
                     con.Row = con.Set.Tables["Article"].NewRow();
                     con.Row[0] = int.Parse(textBox1.Text.Trim());
-                    con.Row[1] = textBox2.Text;
-                    con.Row[2] = float.Parse(textBox3.Text.Trim());
-                    con.Row[3] = int.Parse(textBox5.Text.Trim());
+                    con.Row[1] = textBox5.Text;
+                    con.Row[2] = float.Parse(textBox2.Text.Trim());
+                    con.Row[3] = int.Parse(textBox3.Text.Trim());
                     con.Set.Tables["Article"].Rows.Add(con.Row);
                     MessageBox.Show("Article Ajouté Avec Succès", "Ajouter", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     textBox1.Text = "";
@@ -80,11 +80,11 @@ namespace Gestion_Usine
                     textBox3.Text = "";
                     textBox5.Text = "";
                 }
-                //else
-                //{
-                //    MessageBox.Show("Une Erreur s'est Produite. Veuillez réessayer", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                //    return;
-                //}
+                else
+                {
+                    MessageBox.Show("Une Erreur s'est Produite. Veuillez réessayer", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
             }
             catch
             {
