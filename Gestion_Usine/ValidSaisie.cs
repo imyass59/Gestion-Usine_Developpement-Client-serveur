@@ -22,8 +22,6 @@ namespace Gestion_Usine
 
         private void button2_Click(object sender, EventArgs e)
         {
-            SqlTransaction transaction = null;
-            transaction = con.db.BeginTransaction();
             try
             {
                 DialogResult result = MessageBox.Show("Voulez vous Valider les Information Sasie?", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
@@ -42,7 +40,6 @@ namespace Gestion_Usine
                     var resu = dataWproduction.wproductions.Select(x => x);
                     dataWproduction.wproductions.DeleteAllOnSubmit(resu);
                     dataWproduction.SubmitChanges();
-                    transaction.Commit();
                 }
                 else if (result == DialogResult.No)
                 {
@@ -51,7 +48,6 @@ namespace Gestion_Usine
             }
             catch
             {
-                transaction.Rollback();
                 MessageBox.Show("Une erreur s'est produite. Veuillez réessayer", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }

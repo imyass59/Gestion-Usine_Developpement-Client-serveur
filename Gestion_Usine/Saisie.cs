@@ -72,7 +72,7 @@ namespace Gestion_Usine
 
             if(result.Count() > 0)
             {
-                
+                bunifuProgressBar1.BackColor = Color.FromArgb(255, 36, 66);
             }
             else
             {
@@ -82,13 +82,11 @@ namespace Gestion_Usine
 
         private void button3_Click(object sender, EventArgs e)
         {
-            SqlTransaction transaction = null;
-            con.Connection();
-            transaction = con.db.BeginTransaction();
             try
             {
                 var result = dataWproduction.wproductions.Select(x => x);
-                if (result.Count() > 0)
+                var result2 = dataWproduction.Productions.FirstOrDefault(row => row.Num == int.Parse(textBox3.Text));
+                if (result.Count() > 0 && result2==null)
                 {
                     //Afficher un message d’avertissement lorsque la table n’est pas vide avec une possibilité d’abandon de l’opération.
                     DialogResult d = MessageBox.Show("Il y a encore des informations dans la Base, Voulez-vous terminer l'opération ?", "Danger", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
@@ -98,6 +96,7 @@ namespace Gestion_Usine
                         dataWproduction.wproductions.DeleteAllOnSubmit(result);
                         dataWproduction.SubmitChanges();
                         WpRemplir();
+                        check();
                     }
                     else if (d == DialogResult.No)
                     {
@@ -106,16 +105,17 @@ namespace Gestion_Usine
                 }
                 else
                 {
-                    WpRemplir();
+                    //WpRemplir();
+                    check();
+                    MessageBox.Show("Une erreur s'est produite. Veuillez réessayer", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
                 }
-                transaction.Commit();
             }
             catch
             {
                 MessageBox.Show("Une erreur s'est produite. Veuillez réessayer", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            con.Disconnection();
         }
     }
 }
