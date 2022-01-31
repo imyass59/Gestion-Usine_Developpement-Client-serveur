@@ -4,44 +4,47 @@ Tel : varchar(60))
 • Production(Num : int, DP : dateTime, Mat : int, codea : int, qtitep : int ) 
 • wproduction(Num : int, DP : dateTime, Mat : int, NP : varchar(40), codea : int, Designation : 
 varchar(50), qp : int )*/
-Use Usine;
-go 
+
+use Usine;
+go
+
 CREATE TABLE Employe(
-	Mat int PRIMARY KEY ,
-	Nom varchar(20),
-	Prenom varchar(20),
-	DN Date ,
-	Adresse varchar(20),
-	Tel varchar(20)
+    Mat int PRIMARY KEY not null,
+    Nom varchar(20) not null,
+    Prenom varchar(20) not null,
+    DN Date not null,
+    Adresse varchar(20) not null,
+    Tel varchar(20) not null
 );
 go  
 go 
 CREATE TABLE Article(
-	codea int PRIMARY KEY ,
-	Designation varchar(20),
-	Prix float,
-	stock int
+    codea int PRIMARY KEY not null,
+    Designation varchar(20) not null,
+    Prix float not null,
+    stock int not null
 );
-go 
-go 
-CREATE TABLE Production(
-	Num int PRIMARY KEY ,
-	DP DATE,
-	Mat int FOREIGN KEY REFERENCES Employe(Mat),
-	codea int FOREIGN KEY REFERENCES Article(codea),
-	qtitep int 
-);
+
 go
 go 
 CREATE TABLE wproduction(
-	Num int PRIMARY KEY ,
-	DP DATE,
-	Mat int FOREIGN KEY REFERENCES Employe(Mat),
-	NP int FOREIGN KEY REFERENCES Production(Num),
-	codea int FOREIGN KEY REFERENCES Article(codea),
-	Designation varchar(20),
-	qp int
+    Num int PRIMARY KEY not null,
+    DP DATE not null,
+    Mat int FOREIGN KEY REFERENCES Employe(Mat) not null,
+    NP varchar(50) not null,
+    codea int FOREIGN KEY REFERENCES Article(codea) not null,
+    Designation varchar(20) not null,
+    qp int not null
 );
+
+go 
+go 
+CREATE TABLE Production(
+    Num int not null,
+    DP DATE not null,
+    Mat int FOREIGN KEY REFERENCES Employe(Mat) not null,
+    codea int FOREIGN KEY REFERENCES Article(codea) not null,
+    qtitep int not null
+);
+
 go
-
-
