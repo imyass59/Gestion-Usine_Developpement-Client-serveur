@@ -40,9 +40,11 @@ namespace Gestion_Usine
                     var resu = dataWproduction.wproductions.Select(x => x);
                     dataWproduction.wproductions.DeleteAllOnSubmit(resu);
                     dataWproduction.SubmitChanges();
+                    Refrech();
                 }
                 else if (result == DialogResult.No)
                 {
+                    Refrech();
                     return;
                 }
             }
@@ -51,6 +53,31 @@ namespace Gestion_Usine
                 MessageBox.Show("Une erreur s'est produite. Veuillez réessayer", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Refrech();
+                return;
+            }
+            catch
+            {
+                MessageBox.Show("Une erreur s'est produite. Veuillez réessayer", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+        }
+
+        private void Refrech()
+        {
+            var result = (from rows in dataWproduction.Productions select rows).ToList();
+            bunifuCustomDataGrid1.DataSource = result;
+        }
+
+        private void ValidSaisie_Load(object sender, EventArgs e)
+        {
+            Refrech();
         }
     }
 }
