@@ -14,14 +14,7 @@ CREATE TABLE Employe(
 	Adresse varchar(20),
 	Tel varchar(20)
 );
-go  
-go 
-CREATE TABLE Article(
-	codea int PRIMARY KEY ,
-	Designation varchar(20),
-	Prix float,
-	stock int
-);
+
 go 
 go 
 CREATE TABLE Production(
