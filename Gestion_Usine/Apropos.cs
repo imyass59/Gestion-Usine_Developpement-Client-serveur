@@ -63,5 +63,38 @@ namespace Gestion_Usine
         {
             System.Diagnostics.Process.Start("https://www.instagram.com/mehdii_chi");
         }
+
+
+        //Noufal
+        private void pictureBox14_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/AKELNOUFAL");
+        }
+
+        private void pictureBox15_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.linkedin.com/in/noufal-akel-7204761ba");
+        }
+
+        private void pictureBox13_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.instagram.com/AKELNOUFAL");
+        }
+
+        // anass
+        private void pictureBox12_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("");
+        }
+
+        private void pictureBox11_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("");
+        }
+
+        private void pictureBox10_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("");
+        }
     }
 }

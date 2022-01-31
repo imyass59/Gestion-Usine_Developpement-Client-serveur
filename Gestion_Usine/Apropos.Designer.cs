@@ -32,71 +32,71 @@ namespace Gestion_Usine
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Apropos));
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.circulePic1 = new Gestion_Usine.CirculePic();
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.circulePic2 = new Gestion_Usine.CirculePic();
             this.label3 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.circulePic3 = new Gestion_Usine.CirculePic();
             this.label4 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.circulePic4 = new Gestion_Usine.CirculePic();
             this.label5 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.circulePic5 = new Gestion_Usine.CirculePic();
             this.label6 = new System.Windows.Forms.Label();
-            this.circulePic6 = new Gestion_Usine.CirculePic();
-            this.circulePic7 = new Gestion_Usine.CirculePic();
-            this.circulePic8 = new Gestion_Usine.CirculePic();
-            this.circulePic9 = new Gestion_Usine.CirculePic();
+            this.circulePic5 = new Gestion_Usine.CirculePic();
             this.circulePic10 = new Gestion_Usine.CirculePic();
-            ((System.ComponentModel.ISupportInitialize)(this.circulePic1)).BeginInit();
+            this.circulePic4 = new Gestion_Usine.CirculePic();
+            this.circulePic9 = new Gestion_Usine.CirculePic();
+            this.circulePic3 = new Gestion_Usine.CirculePic();
+            this.circulePic8 = new Gestion_Usine.CirculePic();
+            this.circulePic2 = new Gestion_Usine.CirculePic();
+            this.circulePic7 = new Gestion_Usine.CirculePic();
+            this.circulePic1 = new Gestion_Usine.CirculePic();
+            this.circulePic6 = new Gestion_Usine.CirculePic();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.circulePic2)).BeginInit();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.circulePic3)).BeginInit();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.circulePic4)).BeginInit();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.circulePic5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.circulePic6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.circulePic7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.circulePic8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.circulePic9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.circulePic10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.circulePic4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.circulePic9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.circulePic3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.circulePic8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.circulePic2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.circulePic7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.circulePic1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.circulePic6)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -118,18 +118,6 @@ namespace Gestion_Usine
             this.label1.Size = new System.Drawing.Size(385, 37);
             this.label1.TabIndex = 1;
             this.label1.Text = "LES DÉVELOPPEUR DE PROJET";
-            // 
-            // circulePic1
-            // 
-            this.circulePic1.BackColor = System.Drawing.Color.Transparent;
-            this.circulePic1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.circulePic1.Image = ((System.Drawing.Image)(resources.GetObject("circulePic1.Image")));
-            this.circulePic1.Location = new System.Drawing.Point(36, 9);
-            this.circulePic1.Name = "circulePic1";
-            this.circulePic1.Size = new System.Drawing.Size(140, 140);
-            this.circulePic1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.circulePic1.TabIndex = 2;
-            this.circulePic1.TabStop = false;
             // 
             // label2
             // 
@@ -155,17 +143,17 @@ namespace Gestion_Usine
             this.panel2.Size = new System.Drawing.Size(206, 224);
             this.panel2.TabIndex = 4;
             // 
-            // pictureBox1
+            // pictureBox3
             // 
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(35, 184);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(30, 30);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(144, 184);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 6;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // pictureBox2
             // 
@@ -179,17 +167,17 @@ namespace Gestion_Usine
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
-            // pictureBox3
+            // pictureBox1
             // 
-            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(144, 184);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(30, 30);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 6;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(35, 184);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // panel3
             // 
@@ -239,18 +227,6 @@ namespace Gestion_Usine
             this.pictureBox6.TabIndex = 4;
             this.pictureBox6.TabStop = false;
             this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
-            // 
-            // circulePic2
-            // 
-            this.circulePic2.BackColor = System.Drawing.Color.Transparent;
-            this.circulePic2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.circulePic2.Image = ((System.Drawing.Image)(resources.GetObject("circulePic2.Image")));
-            this.circulePic2.Location = new System.Drawing.Point(34, 8);
-            this.circulePic2.Name = "circulePic2";
-            this.circulePic2.Size = new System.Drawing.Size(140, 140);
-            this.circulePic2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.circulePic2.TabIndex = 2;
-            this.circulePic2.TabStop = false;
             // 
             // label3
             // 
@@ -312,18 +288,6 @@ namespace Gestion_Usine
             this.pictureBox9.TabStop = false;
             this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
             // 
-            // circulePic3
-            // 
-            this.circulePic3.BackColor = System.Drawing.Color.Transparent;
-            this.circulePic3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.circulePic3.Image = ((System.Drawing.Image)(resources.GetObject("circulePic3.Image")));
-            this.circulePic3.Location = new System.Drawing.Point(34, 9);
-            this.circulePic3.Name = "circulePic3";
-            this.circulePic3.Size = new System.Drawing.Size(140, 140);
-            this.circulePic3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.circulePic3.TabIndex = 2;
-            this.circulePic3.TabStop = false;
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -358,6 +322,7 @@ namespace Gestion_Usine
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox10.TabIndex = 6;
             this.pictureBox10.TabStop = false;
+            this.pictureBox10.Click += new System.EventHandler(this.pictureBox10_Click);
             // 
             // pictureBox11
             // 
@@ -369,6 +334,7 @@ namespace Gestion_Usine
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox11.TabIndex = 5;
             this.pictureBox11.TabStop = false;
+            this.pictureBox11.Click += new System.EventHandler(this.pictureBox11_Click);
             // 
             // pictureBox12
             // 
@@ -380,18 +346,7 @@ namespace Gestion_Usine
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox12.TabIndex = 4;
             this.pictureBox12.TabStop = false;
-            // 
-            // circulePic4
-            // 
-            this.circulePic4.BackColor = System.Drawing.Color.Transparent;
-            this.circulePic4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.circulePic4.Image = ((System.Drawing.Image)(resources.GetObject("circulePic4.Image")));
-            this.circulePic4.Location = new System.Drawing.Point(34, 9);
-            this.circulePic4.Name = "circulePic4";
-            this.circulePic4.Size = new System.Drawing.Size(140, 140);
-            this.circulePic4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.circulePic4.TabIndex = 2;
-            this.circulePic4.TabStop = false;
+            this.pictureBox12.Click += new System.EventHandler(this.pictureBox12_Click);
             // 
             // label5
             // 
@@ -400,9 +355,9 @@ namespace Gestion_Usine
             this.label5.ForeColor = System.Drawing.Color.RoyalBlue;
             this.label5.Location = new System.Drawing.Point(40, 154);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(130, 20);
+            this.label5.Size = new System.Drawing.Size(124, 20);
             this.label5.TabIndex = 3;
-            this.label5.Text = "ILYASS ELKHADIRI";
+            this.label5.Text = "ANAS DOUDOSS";
             // 
             // panel6
             // 
@@ -427,6 +382,7 @@ namespace Gestion_Usine
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox13.TabIndex = 6;
             this.pictureBox13.TabStop = false;
+            this.pictureBox13.Click += new System.EventHandler(this.pictureBox13_Click);
             // 
             // pictureBox14
             // 
@@ -438,6 +394,7 @@ namespace Gestion_Usine
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox14.TabIndex = 5;
             this.pictureBox14.TabStop = false;
+            this.pictureBox14.Click += new System.EventHandler(this.pictureBox14_Click);
             // 
             // pictureBox15
             // 
@@ -449,6 +406,18 @@ namespace Gestion_Usine
             this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox15.TabIndex = 4;
             this.pictureBox15.TabStop = false;
+            this.pictureBox15.Click += new System.EventHandler(this.pictureBox15_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Yu Gothic UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.label6.Location = new System.Drawing.Point(54, 154);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(105, 20);
+            this.label6.TabIndex = 3;
+            this.label6.Text = "NOUFAL AKEL";
             // 
             // circulePic5
             // 
@@ -462,49 +431,28 @@ namespace Gestion_Usine
             this.circulePic5.TabIndex = 2;
             this.circulePic5.TabStop = false;
             // 
-            // label6
+            // circulePic10
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Yu Gothic UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.label6.Location = new System.Drawing.Point(40, 154);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(130, 20);
-            this.label6.TabIndex = 3;
-            this.label6.Text = "ILYASS ELKHADIRI";
+            this.circulePic10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.circulePic10.Image = ((System.Drawing.Image)(resources.GetObject("circulePic10.Image")));
+            this.circulePic10.Location = new System.Drawing.Point(30, 5);
+            this.circulePic10.Name = "circulePic10";
+            this.circulePic10.Size = new System.Drawing.Size(148, 148);
+            this.circulePic10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.circulePic10.TabIndex = 10;
+            this.circulePic10.TabStop = false;
             // 
-            // circulePic6
+            // circulePic4
             // 
-            this.circulePic6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.circulePic6.Image = ((System.Drawing.Image)(resources.GetObject("circulePic6.Image")));
-            this.circulePic6.Location = new System.Drawing.Point(32, 5);
-            this.circulePic6.Name = "circulePic6";
-            this.circulePic6.Size = new System.Drawing.Size(148, 148);
-            this.circulePic6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.circulePic6.TabIndex = 9;
-            this.circulePic6.TabStop = false;
-            // 
-            // circulePic7
-            // 
-            this.circulePic7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.circulePic7.Image = ((System.Drawing.Image)(resources.GetObject("circulePic7.Image")));
-            this.circulePic7.Location = new System.Drawing.Point(30, 4);
-            this.circulePic7.Name = "circulePic7";
-            this.circulePic7.Size = new System.Drawing.Size(148, 148);
-            this.circulePic7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.circulePic7.TabIndex = 10;
-            this.circulePic7.TabStop = false;
-            // 
-            // circulePic8
-            // 
-            this.circulePic8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.circulePic8.Image = ((System.Drawing.Image)(resources.GetObject("circulePic8.Image")));
-            this.circulePic8.Location = new System.Drawing.Point(30, 4);
-            this.circulePic8.Name = "circulePic8";
-            this.circulePic8.Size = new System.Drawing.Size(148, 148);
-            this.circulePic8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.circulePic8.TabIndex = 10;
-            this.circulePic8.TabStop = false;
+            this.circulePic4.BackColor = System.Drawing.Color.Transparent;
+            this.circulePic4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.circulePic4.Image = ((System.Drawing.Image)(resources.GetObject("circulePic4.Image")));
+            this.circulePic4.Location = new System.Drawing.Point(34, 9);
+            this.circulePic4.Name = "circulePic4";
+            this.circulePic4.Size = new System.Drawing.Size(140, 140);
+            this.circulePic4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.circulePic4.TabIndex = 2;
+            this.circulePic4.TabStop = false;
             // 
             // circulePic9
             // 
@@ -517,16 +465,74 @@ namespace Gestion_Usine
             this.circulePic9.TabIndex = 10;
             this.circulePic9.TabStop = false;
             // 
-            // circulePic10
+            // circulePic3
             // 
-            this.circulePic10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.circulePic10.Image = ((System.Drawing.Image)(resources.GetObject("circulePic10.Image")));
-            this.circulePic10.Location = new System.Drawing.Point(30, 5);
-            this.circulePic10.Name = "circulePic10";
-            this.circulePic10.Size = new System.Drawing.Size(148, 148);
-            this.circulePic10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.circulePic10.TabIndex = 10;
-            this.circulePic10.TabStop = false;
+            this.circulePic3.BackColor = System.Drawing.Color.Transparent;
+            this.circulePic3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.circulePic3.Image = ((System.Drawing.Image)(resources.GetObject("circulePic3.Image")));
+            this.circulePic3.Location = new System.Drawing.Point(34, 9);
+            this.circulePic3.Name = "circulePic3";
+            this.circulePic3.Size = new System.Drawing.Size(140, 140);
+            this.circulePic3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.circulePic3.TabIndex = 2;
+            this.circulePic3.TabStop = false;
+            // 
+            // circulePic8
+            // 
+            this.circulePic8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.circulePic8.Image = ((System.Drawing.Image)(resources.GetObject("circulePic8.Image")));
+            this.circulePic8.Location = new System.Drawing.Point(30, 4);
+            this.circulePic8.Name = "circulePic8";
+            this.circulePic8.Size = new System.Drawing.Size(148, 148);
+            this.circulePic8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.circulePic8.TabIndex = 10;
+            this.circulePic8.TabStop = false;
+            // 
+            // circulePic2
+            // 
+            this.circulePic2.BackColor = System.Drawing.Color.Transparent;
+            this.circulePic2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.circulePic2.Image = ((System.Drawing.Image)(resources.GetObject("circulePic2.Image")));
+            this.circulePic2.Location = new System.Drawing.Point(34, 8);
+            this.circulePic2.Name = "circulePic2";
+            this.circulePic2.Size = new System.Drawing.Size(140, 140);
+            this.circulePic2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.circulePic2.TabIndex = 2;
+            this.circulePic2.TabStop = false;
+            // 
+            // circulePic7
+            // 
+            this.circulePic7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.circulePic7.Image = ((System.Drawing.Image)(resources.GetObject("circulePic7.Image")));
+            this.circulePic7.Location = new System.Drawing.Point(30, 4);
+            this.circulePic7.Name = "circulePic7";
+            this.circulePic7.Size = new System.Drawing.Size(148, 148);
+            this.circulePic7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.circulePic7.TabIndex = 10;
+            this.circulePic7.TabStop = false;
+            // 
+            // circulePic1
+            // 
+            this.circulePic1.BackColor = System.Drawing.Color.Transparent;
+            this.circulePic1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.circulePic1.Image = ((System.Drawing.Image)(resources.GetObject("circulePic1.Image")));
+            this.circulePic1.Location = new System.Drawing.Point(36, 9);
+            this.circulePic1.Name = "circulePic1";
+            this.circulePic1.Size = new System.Drawing.Size(140, 140);
+            this.circulePic1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.circulePic1.TabIndex = 2;
+            this.circulePic1.TabStop = false;
+            // 
+            // circulePic6
+            // 
+            this.circulePic6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.circulePic6.Image = ((System.Drawing.Image)(resources.GetObject("circulePic6.Image")));
+            this.circulePic6.Location = new System.Drawing.Point(32, 5);
+            this.circulePic6.Name = "circulePic6";
+            this.circulePic6.Size = new System.Drawing.Size(148, 148);
+            this.circulePic6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.circulePic6.TabIndex = 9;
+            this.circulePic6.TabStop = false;
             // 
             // Apropos
             // 
@@ -546,41 +552,41 @@ namespace Gestion_Usine
             this.Name = "Apropos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "A propos";
-            ((System.ComponentModel.ISupportInitialize)(this.circulePic1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.circulePic2)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.circulePic3)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.circulePic4)).EndInit();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.circulePic5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.circulePic6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.circulePic7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.circulePic8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.circulePic9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.circulePic10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.circulePic4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.circulePic9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.circulePic3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.circulePic8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.circulePic2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.circulePic7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.circulePic1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.circulePic6)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
