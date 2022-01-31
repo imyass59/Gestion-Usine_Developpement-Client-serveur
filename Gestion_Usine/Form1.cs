@@ -67,5 +67,11 @@ namespace Gestion_Usine
             ValidSaisie validSaisie = new ValidSaisie();
             validSaisie.ShowDialog();
         }
+
+        private void aProposToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Apropos apropos = new Apropos();
+            apropos.ShowDialog();
+        }
     }
 }
