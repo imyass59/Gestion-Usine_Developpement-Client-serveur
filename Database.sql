@@ -48,3 +48,29 @@ CREATE TABLE Production(
 );
 
 go
+
+
+
+go
+create proc t2 
+as 
+begin
+	Declare @i int , @c int ,@num_prod int,@date_production date , @mat int ,@code_a int ,@qp int
+	set @c = cast((Select count(*) from wproduction) as int)
+	set @i = 0;
+	while (@i<@c)
+		begin
+		select @num_prod = Num ,@date_production = DP ,@mat = Mat ,@code_a = codea , @qp =qp from wproduction;
+		insert into Production values(@num_prod,@date_production ,@mat,@code_a,@qp);
+		set @i = @i +1;
+		end
+	 
+end
+go
+
+create proc WproInsert(@num_prod int,@date_production date , @mat int ,@Np varchar(20),@code_a int,@Desig varchar(30) ,@qp int )
+as
+begin
+	insert into wproduction values(@num_prod  ,@date_production   , @mat   ,@Np   ,@code_a  ,@Desig    ,@qp  )
+
+end
