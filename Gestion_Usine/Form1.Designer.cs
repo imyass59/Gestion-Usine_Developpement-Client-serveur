@@ -86,7 +86,7 @@ namespace Gestion_Usine
             // 
             this.employésToolStripMenuItem.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.employésToolStripMenuItem.Name = "employésToolStripMenuItem";
-            this.employésToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.employésToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
             this.employésToolStripMenuItem.Text = "Employés ";
             this.employésToolStripMenuItem.Click += new System.EventHandler(this.employésToolStripMenuItem_Click);
             // 
@@ -94,20 +94,20 @@ namespace Gestion_Usine
             // 
             this.articlesToolStripMenuItem.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.articlesToolStripMenuItem.Name = "articlesToolStripMenuItem";
-            this.articlesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.articlesToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
             this.articlesToolStripMenuItem.Text = "Articles ";
             this.articlesToolStripMenuItem.Click += new System.EventHandler(this.articlesToolStripMenuItem_Click);
             // 
             // quitterToolStripMenuItem
             // 
             this.quitterToolStripMenuItem.Name = "quitterToolStripMenuItem";
-            this.quitterToolStripMenuItem.Size = new System.Drawing.Size(177, 6);
+            this.quitterToolStripMenuItem.Size = new System.Drawing.Size(135, 6);
             // 
             // quitterToolStripMenuItem1
             // 
             this.quitterToolStripMenuItem1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.quitterToolStripMenuItem1.Name = "quitterToolStripMenuItem1";
-            this.quitterToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.quitterToolStripMenuItem1.Size = new System.Drawing.Size(138, 22);
             this.quitterToolStripMenuItem1.Text = "Quitter";
             this.quitterToolStripMenuItem1.Click += new System.EventHandler(this.quitterToolStripMenuItem1_Click);
             // 
@@ -164,6 +164,7 @@ namespace Gestion_Usine
             this.listDesEmployésToolStripMenuItem.Name = "listDesEmployésToolStripMenuItem";
             this.listDesEmployésToolStripMenuItem.Size = new System.Drawing.Size(231, 22);
             this.listDesEmployésToolStripMenuItem.Text = "List des Employés";
+            this.listDesEmployésToolStripMenuItem.Click += new System.EventHandler(this.listDesEmployésToolStripMenuItem_Click);
             // 
             // listeDesArticlesToolStripMenuItem
             // 
@@ -171,6 +172,7 @@ namespace Gestion_Usine
             this.listeDesArticlesToolStripMenuItem.Name = "listeDesArticlesToolStripMenuItem";
             this.listeDesArticlesToolStripMenuItem.Size = new System.Drawing.Size(231, 22);
             this.listeDesArticlesToolStripMenuItem.Text = "Liste des Articles";
+            this.listeDesArticlesToolStripMenuItem.Click += new System.EventHandler(this.listeDesArticlesToolStripMenuItem_Click);
             // 
             // toolStripMenuItem2
             // 
@@ -183,6 +185,7 @@ namespace Gestion_Usine
             this.productionParPériodeToolStripMenuItem.Name = "productionParPériodeToolStripMenuItem";
             this.productionParPériodeToolStripMenuItem.Size = new System.Drawing.Size(231, 22);
             this.productionParPériodeToolStripMenuItem.Text = "Production par période";
+            this.productionParPériodeToolStripMenuItem.Click += new System.EventHandler(this.productionParPériodeToolStripMenuItem_Click);
             // 
             // histigrammeDeProductionToolStripMenuItem
             // 
@@ -190,6 +193,7 @@ namespace Gestion_Usine
             this.histigrammeDeProductionToolStripMenuItem.Name = "histigrammeDeProductionToolStripMenuItem";
             this.histigrammeDeProductionToolStripMenuItem.Size = new System.Drawing.Size(231, 22);
             this.histigrammeDeProductionToolStripMenuItem.Text = "Histigramme de production";
+            this.histigrammeDeProductionToolStripMenuItem.Click += new System.EventHandler(this.histigrammeDeProductionToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 

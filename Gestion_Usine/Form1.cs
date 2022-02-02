@@ -73,5 +73,29 @@ namespace Gestion_Usine
             Apropos apropos = new Apropos();
             apropos.ShowDialog();
         }
+
+        private void listDesEmployésToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Listes_des_employes lstEmp = new Listes_des_employes();
+            lstEmp.ShowDialog();
+        }
+
+        private void listeDesArticlesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Liste_des_articles lstArticles = new Liste_des_articles();
+            lstArticles.ShowDialog();
+        }
+
+        private void productionParPériodeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Production_par_periode prp = new Production_par_periode();
+            prp.ShowDialog();
+        }
+
+        private void histigrammeDeProductionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Histogramme Hist = new Histogramme();
+            Hist.ShowDialog();
+        }
     }
 }

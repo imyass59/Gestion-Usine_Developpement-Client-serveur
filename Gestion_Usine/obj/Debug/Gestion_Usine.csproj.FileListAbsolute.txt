@@ -86,3 +86,43 @@ C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Usine\Gestion_Usine
 C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Usine\Gestion_Usine\obj\Debug\Gestion_Usine.ValidSaisie.resources
 C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Usine\Gestion_Usine\obj\Debug\Gestion_Usine.csproj.AssemblyReference.cache
 C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Usine\Gestion_Usine\obj\Debug\Gestion_Usine.Apropos.resources
+C:\Users\Mobe\Source\Repos\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\bin\Debug\Gestion_Usine.exe.config
+C:\Users\Mobe\Source\Repos\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\bin\Debug\Gestion_Usine.exe
+C:\Users\Mobe\Source\Repos\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\bin\Debug\Gestion_Usine.pdb
+C:\Users\Mobe\Source\Repos\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\obj\Debug\Gestion_Usine.csprojAssemblyReference.cache
+C:\Users\Mobe\Source\Repos\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\obj\Debug\Gestion_Usine.Apropos.resources
+C:\Users\Mobe\Source\Repos\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\obj\Debug\Gestion_Usine.Article.resources
+C:\Users\Mobe\Source\Repos\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\obj\Debug\Gestion_Usine.Consultation.resources
+C:\Users\Mobe\Source\Repos\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\obj\Debug\Gestion_Usine.Employes.resources
+C:\Users\Mobe\Source\Repos\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\obj\Debug\Gestion_Usine.Form1.resources
+C:\Users\Mobe\Source\Repos\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\obj\Debug\Gestion_Usine.Properties.Resources.resources
+C:\Users\Mobe\Source\Repos\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\obj\Debug\Gestion_Usine.Saisie.resources
+C:\Users\Mobe\Source\Repos\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\obj\Debug\Gestion_Usine.ValidSaisie.resources
+C:\Users\Mobe\Source\Repos\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\obj\Debug\Gestion_Usine.csproj.GenerateResource.cache
+C:\Users\Mobe\Source\Repos\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\obj\Debug\Gestion_Usine.csproj.CoreCompileInputs.cache
+C:\Users\Mobe\Source\Repos\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\obj\Debug\Gestion_Usine.csproj.CopyComplete
+C:\Users\Mobe\Source\Repos\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\obj\Debug\Gestion_Usine.exe
+C:\Users\Mobe\Source\Repos\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\obj\Debug\Gestion_Usine.pdb
+C:\Users\Mobe\Source\Repos\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\bin\Debug\AxShockwaveFlashObjects.dll
+C:\Users\Mobe\Source\Repos\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Mobe\Source\Repos\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Mobe\Source\Repos\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Mobe\Source\Repos\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Mobe\Source\Repos\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Mobe\Source\Repos\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Mobe\Source\Repos\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Mobe\Source\Repos\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Mobe\Source\Repos\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Mobe\Source\Repos\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Mobe\Source\Repos\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Mobe\Source\Repos\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Mobe\Source\Repos\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Mobe\Source\Repos\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Mobe\Source\Repos\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Mobe\Source\Repos\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Mobe\Source\Repos\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\bin\Debug\stdole.dll
+C:\Users\Mobe\Source\Repos\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Mobe\Source\Repos\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\obj\Debug\Gestion_Usine.Listes_des_employes.resources
+C:\Users\Mobe\Source\Repos\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\obj\Debug\Gestion_Usine.Liste_des_articles.resources
+C:\Users\Mobe\source\repos\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\obj\Debug\Gestion_Usine.Production_par_periode.resources
+C:\Users\Mobe\source\repos\Gestion-Usine_Developpement-Web-Client-serveur\Gestion_Usine\obj\Debug\Gestion_Usine.Histogramme.resources

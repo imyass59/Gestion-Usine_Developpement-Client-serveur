@@ -42,6 +42,7 @@ namespace Gestion_Usine
             try
             {
                 dataWproduction.wproductions.First(x => x.Num == int.Parse(textBox3.Text));
+                dataWproduction.Productions.First(x => x.Num == int.Parse(textBox3.Text));
                 MessageBox.Show("Une erreur s'est produite. Veuillez réessayer", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
@@ -85,8 +86,7 @@ namespace Gestion_Usine
             try
             {
                 var result = dataWproduction.wproductions.Select(x => x);
-                var result2 = dataWproduction.Productions.FirstOrDefault(row => row.Num == int.Parse(textBox3.Text));
-                if (result.Count() > 0 && result2==null)
+                if (result.Count() > 0)
                 {
                     //Afficher un message d’avertissement lorsque la table n’est pas vide avec une possibilité d’abandon de l’opération.
                     DialogResult d = MessageBox.Show("Il y a encore des informations dans la Base, Voulez-vous terminer l'opération ?", "Danger", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
@@ -105,9 +105,8 @@ namespace Gestion_Usine
                 }
                 else
                 {
-                    //WpRemplir();
+                    WpRemplir();
                     check();
-                    MessageBox.Show("Une erreur s'est produite. Veuillez réessayer", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
             }
