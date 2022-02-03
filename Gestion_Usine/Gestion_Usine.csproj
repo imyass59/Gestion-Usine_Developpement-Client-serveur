@@ -149,6 +149,12 @@
     <Compile Include="Saisie.Designer.cs">
       <DependentUpon>Saisie.cs</DependentUpon>
     </Compile>
+    <Compile Include="SommaireAide.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SommaireAide.Designer.cs">
+      <DependentUpon>SommaireAide.cs</DependentUpon>
+    </Compile>
     <Compile Include="Usine.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -219,6 +225,9 @@
     </Compile>
     <EmbeddedResource Include="Saisie.resx">
       <DependentUpon>Saisie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SommaireAide.resx">
+      <DependentUpon>SommaireAide.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ValidSaisie.resx">
       <DependentUpon>ValidSaisie.cs</DependentUpon>

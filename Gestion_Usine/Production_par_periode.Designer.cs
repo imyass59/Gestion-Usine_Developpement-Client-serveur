@@ -46,7 +46,7 @@ namespace Gestion_Usine
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(9, 14);
+            this.label1.Location = new System.Drawing.Point(147, 14);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(26, 16);
             this.label1.TabIndex = 1;
@@ -55,7 +55,7 @@ namespace Gestion_Usine
             // dateStart
             // 
             this.dateStart.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateStart.Location = new System.Drawing.Point(41, 12);
+            this.dateStart.Location = new System.Drawing.Point(179, 12);
             this.dateStart.Name = "dateStart";
             this.dateStart.Size = new System.Drawing.Size(125, 20);
             this.dateStart.TabIndex = 0;
@@ -63,7 +63,7 @@ namespace Gestion_Usine
             // dateEnd
             // 
             this.dateEnd.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateEnd.Location = new System.Drawing.Point(194, 12);
+            this.dateEnd.Location = new System.Drawing.Point(332, 12);
             this.dateEnd.Name = "dateEnd";
             this.dateEnd.Size = new System.Drawing.Size(125, 20);
             this.dateEnd.TabIndex = 2;
@@ -72,7 +72,7 @@ namespace Gestion_Usine
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(172, 14);
+            this.label2.Location = new System.Drawing.Point(310, 14);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(16, 16);
             this.label2.TabIndex = 3;
@@ -84,7 +84,7 @@ namespace Gestion_Usine
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(334, 7);
+            this.button1.Location = new System.Drawing.Point(472, 7);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(125, 30);
             this.button1.TabIndex = 4;
@@ -136,8 +136,10 @@ namespace Gestion_Usine
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(229)))), ((int)(((byte)(234)))));
             this.ClientSize = new System.Drawing.Size(784, 561);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Production_par_periode";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

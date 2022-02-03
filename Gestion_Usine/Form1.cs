@@ -24,7 +24,8 @@ namespace Gestion_Usine
 
         private void sommaireDeLaideToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            SommaireAide sommaire = new SommaireAide();
+            sommaire.ShowDialog();
         }
 
         private void employésToolStripMenuItem_Click(object sender, EventArgs e)

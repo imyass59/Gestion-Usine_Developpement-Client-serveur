@@ -149,3 +149,4 @@ C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Usine\Gestion_Usine
 C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Usine\Gestion_Usine\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
 C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Usine\Gestion_Usine\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
 C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Usine\Gestion_Usine\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Gun$moke\Desktop\Any One\ADV\project_csharp\ADO.NET\Usine\Gestion_Usine\obj\Debug\Gestion_Usine.SommaireAide.resources
