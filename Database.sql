@@ -74,3 +74,19 @@ begin
 	insert into wproduction values(@num_prod  ,@date_production   , @mat   ,@Np   ,@code_a  ,@Desig    ,@qp  )
 
 end
+
+go
+
+create procedure parPeriode(@de date, @a date)
+as 
+begin
+	select * from production where dp between @de and @a
+end;
+
+go
+
+create procedure fillHistogram
+as
+begin
+	select * from production
+end
