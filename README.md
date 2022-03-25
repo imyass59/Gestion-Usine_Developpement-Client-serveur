@@ -1,4 +1,4 @@
-# Gestion-Usine_Developpement-Web-Client-serveur
+# Gestion-Usine_Developpement-Client-serveur
 <h1 align="left" style="color:#7952B3">Project Gestion de Production : </h1>
 <p style="font-family:sans-serif;font-size:17px">
    Un Usine vous demande de développer une application de suivi de la production. L’analyse a permis de
